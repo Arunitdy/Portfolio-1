@@ -44,38 +44,37 @@ const content=`<p>Description: The "Contact" section provides essential informat
                               <p><strong>For a Personal Contact Page:</strong> "If you’d like to get in touch, please use the form below or email me directly at jane.doe@example.com. You can also reach me by phone at (123) 456-7890. Connect with me on social media for updates and more personal interactions."</p>
                       `
 $(document).ready(function(){
-  console.log("script");
-$(".menuA").on("click",(event)=>{//About
-  event.preventDefault();
-  const hedline=$(".menuA").text().trim();
-  console.log(hedline);
- $(".headline").text(hedline);
- $(".Description").html(about)
-})
+        console.log("script");
+      $(".menuA").on("click",(event)=>{
+        event.preventDefault();
+        const hedline=$(event.currentTarget).text().trim();
+        console.log(hedline);
+        
+        switch(hedline){
 
-$(".menuB").on("click",(event)=>{ //Resume
-  event.preventDefault();
-  const hedline=$(".menuB").text().trim();
-  console.log(hedline);
- $(".headline").text(hedline);
- $(".Description").html(Resume )
-})
+          case"About":
+          $(".headline").text(hedline);//About
+          $(".Description").html(about)
+          break;
 
-$(".menuC").on("click",(event)=>{//Blog
-  event.preventDefault();
-  const hedline=$(".menuC").text().trim();
-  console.log(hedline);
- $(".headline").text(hedline);
-  $(".Description").html(Blog)
-})
+          case"Resume":
+          $(".headline").text(hedline);//Resume
+          $(".Description").html(Resume )
+          break;
 
-$(".menuD").on("click",(event)=>{//content
-  event.preventDefault();
-  const hedline=$(".menuD").text().trim();
-  console.log(hedline);
- $(".headline").text(hedline);
- $(".Description").html(content)
-})
+          case"Contact":
+          $(".headline").text(hedline);//Contact
+          $(".Description").html(content)
+          break;
 
+          case "Blog":
+          $(".headline").text(hedline);//Blog
+            $(".Description").html(Blog)
+          break;
 
+          default:
+            console.log("error")
+        }
+        console.log(hedline);
+      })
 })
