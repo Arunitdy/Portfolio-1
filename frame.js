@@ -53,7 +53,7 @@ $(".menuA").on("click",(event)=>{//About
  $(".Description").html(about)
 })
 
-$(".menuB").on("click",(event)=>{//Resume
+$(".menuB").on("click",(event)=>{ //Resume
   event.preventDefault();
   const hedline=$(".menuB").text().trim();
   console.log(hedline);
