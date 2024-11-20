@@ -20,6 +20,7 @@ const Resume=`<p>Description: The "Resume" section provides a detailed summary o
                               <p><strong>For a Job Seeker:</strong> "My resume outlines a career spanning over a decade in project management. It includes my role as a Senior Project Manager at XYZ Corp, where I led cross-functional teams to successfully complete high-profile projects. You’ll also find details about my educational background in Business Administration and certifications in Agile methodologies."</p>
                               <p><strong>For a Professional Profile:</strong> "Browse through my professional resume, showcasing my work as a software engineer. It includes my experience in developing scalable applications, my educational journey with a degree in Computer Science, and my certification in cloud computing. This section also highlights notable projects and contributions to industry advancements."</p>
                       `
+                      
 const Blog=`<p>Description: The "Blog" section is a dynamic area for publishing content related to your field of expertise, interests, or industry. It offers an ongoing stream of articles, updates, and discussions. Key components include:</p>
                               <ul>
                                   <li>Recent Posts: A list of the latest blog entries, typically with summaries and links to full articles.</li>
