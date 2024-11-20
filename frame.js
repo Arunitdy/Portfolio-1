@@ -9,7 +9,7 @@ const about=` <p>Description: The "About" section serves as a comprehensive intr
                           <p><strong>For a Company:</strong> "Welcome to our company! Founded in 2010, we have dedicated ourselves to providing innovative solutions in technology. Our mission is to transform the industry with cutting-edge products while adhering to our core values of integrity and customer satisfaction. Meet our team of experts who are committed to making a difference."</p>
                           <p><strong>For an Individual:</strong> "Hi, I’m Jane Doe, a passionate web designer with over 15 years of experience in creating stunning, user-friendly websites. My journey began in 2008 with a fascination for design and technology. Here, you’ll find out more about my professional background, the projects I’ve worked on, and the principles that guide my work."</p>
                       `;
-                      
+
 const Resume=`<p>Description: The "Resume" section provides a detailed summary of professional qualifications, tailored to showcase your experience and skills. It usually includes:</p>
                               <ul>
                                   <li>Work Experience: A chronological list of previous roles, responsibilities, and achievements.</li>
@@ -45,6 +45,7 @@ const content=`<p>Description: The "Contact" section provides essential informat
                               <p><strong>For a Business Contact Page:</strong> "We’d love to hear from you! Use the contact form below to send us a message, or reach us via email at contact@ourcompany.com. For urgent matters, call us at (123) 456-7890. Follow us on LinkedIn for updates and connect with us on Twitter for the latest news."</p>
                               <p><strong>For a Personal Contact Page:</strong> "If you’d like to get in touch, please use the form below or email me directly at jane.doe@example.com. You can also reach me by phone at (123) 456-7890. Connect with me on social media for updates and more personal interactions."</p>
                       `
+                      
 $(document).ready(function(){
         console.log("script");
       $(".menuA").on("click",(event)=>{
