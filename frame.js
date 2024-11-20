@@ -9,6 +9,7 @@ const about=` <p>Description: The "About" section serves as a comprehensive intr
                           <p><strong>For a Company:</strong> "Welcome to our company! Founded in 2010, we have dedicated ourselves to providing innovative solutions in technology. Our mission is to transform the industry with cutting-edge products while adhering to our core values of integrity and customer satisfaction. Meet our team of experts who are committed to making a difference."</p>
                           <p><strong>For an Individual:</strong> "Hi, I’m Jane Doe, a passionate web designer with over 15 years of experience in creating stunning, user-friendly websites. My journey began in 2008 with a fascination for design and technology. Here, you’ll find out more about my professional background, the projects I’ve worked on, and the principles that guide my work."</p>
                       `;
+                      
 const Resume=`<p>Description: The "Resume" section provides a detailed summary of professional qualifications, tailored to showcase your experience and skills. It usually includes:</p>
                               <ul>
                                   <li>Work Experience: A chronological list of previous roles, responsibilities, and achievements.</li>
@@ -20,7 +21,7 @@ const Resume=`<p>Description: The "Resume" section provides a detailed summary o
                               <p><strong>For a Job Seeker:</strong> "My resume outlines a career spanning over a decade in project management. It includes my role as a Senior Project Manager at XYZ Corp, where I led cross-functional teams to successfully complete high-profile projects. You’ll also find details about my educational background in Business Administration and certifications in Agile methodologies."</p>
                               <p><strong>For a Professional Profile:</strong> "Browse through my professional resume, showcasing my work as a software engineer. It includes my experience in developing scalable applications, my educational journey with a degree in Computer Science, and my certification in cloud computing. This section also highlights notable projects and contributions to industry advancements."</p>
                       `
-                      
+
 const Blog=`<p>Description: The "Blog" section is a dynamic area for publishing content related to your field of expertise, interests, or industry. It offers an ongoing stream of articles, updates, and discussions. Key components include:</p>
                               <ul>
                                   <li>Recent Posts: A list of the latest blog entries, typically with summaries and links to full articles.</li>
