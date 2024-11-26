@@ -48,6 +48,7 @@ const content=`<p>Description: The "Contact" section provides essential informat
                       
 $(document).ready(function(){
         console.log("script");
+        
       $(".menuA").on("click",(event)=>{
         event.preventDefault();
         const hedline=$(event.currentTarget).text().trim();
