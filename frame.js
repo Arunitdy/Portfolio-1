@@ -78,6 +78,8 @@ $(document).ready(function(){
           default:
             console.log("error")
         }
+
         console.log(hedline);
+        
       })
 })
